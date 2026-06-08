@@ -1,10 +1,11 @@
-HTTP -> Hypertext Transfer Protocol
+## **HTTP -> Hypertext Transfer Protocol**
+
 -> Application layer protocol that runs on top of transport layer to let clients (browsers) and servers exchange data.
 -> HTTP provides a universal language.
--> HTTP is used to transfer data (HTML web pages, images, videos) across the web. It operates on REQUEST-RESPONSE MODEL:
+-> HTTP is used to transfer data (HTML web pages, images, videos) across the web. It operates on **==REQUEST-RESPONSE MODEL:==**
 1. Your browser formats an HTTP request (e.g. GET/ index.html)
 2. The server processes it and sends back an HTTP Response containing the requested file and status code (Like 200 OK)
-#### HTTP/1.1 THE RELIABLE BUT SLOW VETERAN
+### HTTP/1.1 THE RELIABLE BUT SLOW VETERAN
 -> Introduced persistent connections
 -> means a single TCP connection could be reused for multiple requests (instead of opening a new connection for every single image or CSS).
 ##### THE PROBLEM :
